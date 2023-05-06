@@ -16,9 +16,10 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "pretty": true,
-	"emitDecoratorMetadata": true,
+    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "typeRoots": [
+      "@types",
       "node_modules/@types"
     ]
   },
