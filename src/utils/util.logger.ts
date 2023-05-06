@@ -21,7 +21,8 @@ const logger = winston.createLogger({
         winston.format.json()
     ),
     transports: [
-        transport
+        transport,
+        new winston.transports.Console()
     ]
 });
 
